@@ -4,20 +4,17 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
+    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-
       <nav>
-        <RouterLink to="/">Home</RouterLink>
+        <!-- <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/todo">Todo List</RouterLink>
+        <RouterLink to="/proxy">响应式 Demo</RouterLink>
+        <RouterLink to="/lifecycle">生命周期 lifecycle</RouterLink>
+        <RouterLink to="/setup">setup</RouterLink> -->
+        <RouterLink to="/plugin">plugin</RouterLink>
       </nav>
     </div>
   </header>

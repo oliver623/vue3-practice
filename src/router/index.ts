@@ -22,6 +22,26 @@ const router = createRouter({
       name: "todo",
       component: () => import("../views/Todo.vue"),
     },
+    {
+      path: "/proxy",
+      name: "proxy",
+      component: () => import("../views/proxy.vue"),
+    },
+    {
+      path: "/lifecycle",
+      name: "lifecycle",
+      component: () => import("../views/lifecycle.vue"),
+    },
+    {
+      path: "/setup",
+      name: "setup",
+      component: () => import("../views/setup.vue"),
+    },
+    {
+      path: "/plugin",
+      name: "plugin",
+      component: () => import("../views/plugin.vue"),
+    },
   ],
 });
 
