@@ -26,7 +26,7 @@ export default {
     console.log(count.value);
     const instance = getCurrentInstance();
     console.log("instance====", instance);
-    console.log("instance.ctx.utils====", instance.ctx.utils);
+    console.log("instance.ctx.utils====", instance.appContext.config.globalProperties.utils);
     return {
       //   ...toRefs(state),
       count,

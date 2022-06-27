@@ -12,9 +12,9 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/todo">Todo List</RouterLink>
         <RouterLink to="/proxy">响应式 Demo</RouterLink>
-        <RouterLink to="/lifecycle">生命周期 lifecycle</RouterLink>
-        <RouterLink to="/setup">setup</RouterLink> -->
-        <RouterLink to="/plugin">plugin</RouterLink>
+        <RouterLink to="/lifecycle">生命周期 lifecycle</RouterLink> -->
+        <RouterLink to="/setup">setup</RouterLink>
+        <!-- <RouterLink to="/plugin">plugin</RouterLink> -->
       </nav>
     </div>
   </header>
